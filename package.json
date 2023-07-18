@@ -1,0 +1,21 @@
+{
+  "name": "fb-auto-poster",
+  "version": "1.0.0",
+  "description": "auto posts on fb profile",
+  "main": "Poster.ts",
+  "scripts": {
+    "dev": "set NODE_ENV=development&&ts-node Server.ts",
+    "start": "ts-node ./Server/Server.ts",
+    "test": "set NODE_ENV=development&&ts-node ./test/getReocverycodeTest.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.13",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
+  },
+  "devDependencies": {}
+}
